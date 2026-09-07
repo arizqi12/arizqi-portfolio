@@ -18,8 +18,8 @@ export const projects = [
       "Aplikasi portofolio pribadi dibangun dengan React, Vite dan Tailwind CSS.",
     techStack: ["React", "Vite", "Tailwind CSS"],
     image: "/projects/portfolio.png",
-    demoLink: "https://example.com",
-    githubLink: "https://github.com",
+    demoLink: "https://arizqi-portfolio.vercel.app/",
+    githubLink: "https://github.com/arizqi12/arizqi-portfolio",
   },
   {
     id: 2,
