@@ -1,75 +1,54 @@
-// src/data/portfolioData.js
 export const personalInfo = {
   name: "Arizqi Ramadhan",
-  title: "Frontend Developer & UI/UX Design Enthusiast",
-  bio: "Fresh graduate (2025) dengan minat pada pengembangan Frontend dan desain UI/UX. Aktif belajar membangun antarmuka web yang rapi, responsif, dan nyaman digunakan menggunakan React, Tailwind CSS, serta Figma.",
+  role: "Frontend Developer & UI/UX Designer",
+  bio: "Focused on building interactive, aesthetic, and optimal user experience web interfaces with clean and scalable code.",
   email: "arizqiramadhan2@gmail.com",
-  socials: {
-    github: "https://github.com/arizqi12",
-    linkedin: "https://linkedin.com/in/arizqi-ramadhan",
-  },
+  github: "https://github.com/arizqi12",
+  linkedin: "https://linkedin.com/in/arizqi-ramadhan",
 };
 
-export const projects = [
+export const skillsData = [
+  { name: "React.js", category: "Frontend" },
+  { name: "Tailwind CSS", category: "Frontend" },
+  { name: "JavaScript (ES6+)", category: "Frontend" },
+  { name: "UI/UX Design", category: "Design" },
+  { name: "Figma", category: "Design" },
+  { name: "Git & GitHub", category: "Tools" },
+  { name: "Responsive Design", category: "General" },
+];
+
+export const projectsData = [
   {
     id: 1,
-    title: "Portofolio Web",
+    title: "Portfolio Web",
+    category: "Frontend Dev",
     description:
-      "Aplikasi portofolio pribadi dibangun dengan React, Vite dan Tailwind CSS.",
+      "A personal portfolio application built with React, Vite, and Tailwind CSS.",
     techStack: ["React", "Vite", "Tailwind CSS"],
     image: "/projects/portfolio.png",
-    demoLink: "https://arizqi-portfolio.vercel.app/",
-    githubLink: "https://github.com/arizqi12/arizqi-portfolio",
+    liveUrl: "https://arizqi-portfolio.vercel.app/",
+    githubUrl: "https://github.com/arizqi12/arizqi-portfolio",
   },
   {
     id: 2,
     title: "TeamDetik UI",
+    category: "Frontend Dev",
     description:
-      "Slicing landing page dan halaman blog multi-page interaktif menggunakan HTML5 Semantik, CSS3, dan Bootstrap 4.",
+      "Interactive landing page and multi-page blog slicing using Semantic HTML5, CSS3, and Bootstrap 4.",
     techStack: ["HTML5", "CSS3", "Bootstrap"],
     image: "/projects/teamdetik.png",
-    demoLink: "https://team-detik.vercel.app/",
-    githubLink: "https://github.com/arizqi12/team-detik",
+    liveUrl: "https://team-detik.vercel.app/",
+    githubUrl: "https://github.com/arizqi12/team-detik",
   },
   {
     id: 3,
     title: "Explore Thailand by Detiktravel",
+    category: "Frontend Dev",
     description:
-      "Mengembangkan landing page interaktif dan responsif untuk kampanye Explore Thailand bersama Detiktravel. Platform ini dirancang untuk mempromosikan kompetisi perjalanan ke Thailand, memberikan informasi mekanisme pendaftaran, serta menyajikan artikel travel update terkini secara visual dan menarik.",
+      "Developed an interactive and responsive landing page for the Explore Thailand campaign with Detiktravel. Designed to promote travel competitions, registration mechanisms, and latest travel updates.",
     techStack: ["React", "Vite", "Tailwind CSS"],
     image: "/projects/explorethailand.png",
-    demoLink: "https://explore-thailand.vercel.app/",
-    githubLink: "https://github.com/arizqi12/explore-thailand",
-  },
-];
-
-export const skills = [
-  {
-    category: "UI/UX Design",
-    description:
-      "Merancang antarmuka pengguna yang intuitif, menarik, dan berfokus pada kebutuhan pengguna.",
-    items: [
-      "Figma",
-      "Wireframing",
-      "Prototyping",
-      "User Flow",
-      "Design Systems",
-      "Responsive Web Design",
-    ],
-  },
-  {
-    category: "Frontend Development",
-    description:
-      "Mengimplementasikan rancangan desain menjadi kode yang bersih, cepat, dan responsif.",
-    items: [
-      "ReactJS",
-      "Vite",
-      "JavaScript (ES6+)",
-      "Tailwind CSS",
-      "HTML5 & CSS3",
-      "Bootstrap",
-      "Git & GitHub",
-      "REST API Integration",
-    ],
+    liveUrl: "https://explore-thailand.vercel.app/",
+    githubUrl: "https://github.com/arizqi12/explore-thailand",
   },
 ];

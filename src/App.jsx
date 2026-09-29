@@ -1,21 +1,26 @@
-import Navbar from "./components/Navbar";
-import Hero from "./sections/Hero";
-import Projects from "./sections/Projects";
-import Skills from "./sections/Skills";
-import Contact from "./sections/Contact";
+import Navbar from "./components/common/Navbar";
+import MouseGlow from "./components/common/MouseGlow";
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+import Skills from "./components/sections/Skills";
+import Projects from "./components/sections/Projects";
+import Contact from "./components/sections/Contact";
+import Footer from "./components/common/Footer";
 
-function App() {
+export default function App() {
   return (
-    <div className="bg-slate-900 min-h-screen text-slate-100 font-sans selection:bg-cyan-500 selection:text-slate-950">
+    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-indigo-500 selection:text-white scroll-smooth bg-grid-pattern relative overflow-hidden">
+      <MouseGlow />
+
       <Navbar />
-      <main className="space-y-12">
+      <main className="relative z-10">
         <Hero />
-        <Projects />
+        <About />
         <Skills />
+        <Projects />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
-
-export default App;
