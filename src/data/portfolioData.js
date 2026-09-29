@@ -5,6 +5,7 @@ export const personalInfo = {
   email: "arizqiramadhan2@gmail.com",
   github: "https://github.com/arizqi12",
   linkedin: "https://linkedin.com/in/arizqi-ramadhan",
+  avatarUrl: "/profile.jpg",
 };
 
 export const skillsData = [
